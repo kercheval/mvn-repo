@@ -22,9 +22,11 @@
 </head>
 <body>
 <div id="header">
+   {% if page.github %}
    <nav>
       <li class="fork"><a href="{{ page.github }}">View On GitHub</a></li>
    </nav>
+   {% endif %}
 </div><!-- end header -->
 
 <div class="wrapper">
