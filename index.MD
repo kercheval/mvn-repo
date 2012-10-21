@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Maven Repository for kercheval.org
+github: https://github.com/kercheval/mvn-repo
 ---
 
 # Maven Repository for kercheval.org
