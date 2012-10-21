@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Maven Repository for kercheval.org
 ---
 
 # Maven Repository for kercheval.org
