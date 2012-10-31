@@ -8,9 +8,6 @@ github: https://github.com/kercheval/mvn-repo
 
 ***
 
-<span class="credits left">Project maintained by <a href="https://github.com/kercheval">kercheval</a></span>
-<br/><br/>
-
 This repository has been setup to host kercheval.org projects.  This
 is a github gh_pages branch dedicated to the deployment of projects to
 allow the simple deployment and recovery of project artifacts.
@@ -23,6 +20,7 @@ Snapshots are stored in the snapshot directory and releases are in the releases 
 
 A typical gradle usage of this repository for a plugin might be
 
+<pre>
 buildscript {<br/>
     repositories {<br/>
         mavenRepo url: 'http://kercheval.org/mvn-repo/releases'<br/>
@@ -31,6 +29,9 @@ buildscript {<br/>
         classpath 'org.kercheval:GradleCMPlugin:+'<br/>
     }<br/>
 }
+</pre>s
 
 This repository should be usable by standard maven interactions.
 
+
+<span class="credits left">Project maintained by <a href="https://github.com/kercheval">kercheval</a></span>
