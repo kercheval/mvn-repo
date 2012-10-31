@@ -15,6 +15,24 @@ This repository has been setup to host kercheval.org projects.  This
 is a github gh_pages branch dedicated to the deployment of projects to
 allow the simple deployment and recovery of project artifacts.
 
-TODO: Describe the common URL to use for this repository
+The base URL for the repository is
 
 http://kercheval.org/mvn-repo/
+
+Snapshots are stored in the snapshot directory and releases are in the releases directory.
+
+A typical gradle usage of this repository for a plugin might be
+
+```
+buildscript {
+    repositories {
+        mavenRepo url: 'http://kercheval.org/mvn-repo/releases'
+    }
+    dependencies {
+        classpath 'org.kercheval:GradleCMPlugin:+'
+    }
+}
+```
+
+This repository should be usable by standard maven interactions.
+
