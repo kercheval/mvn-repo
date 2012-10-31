@@ -21,15 +21,15 @@ Snapshots are stored in the snapshot directory and releases are in the releases 
 A typical gradle usage of this repository for a plugin might be
 
 <pre>
-buildscript {<br/>
-    repositories {<br/>
-        mavenRepo url: 'http://kercheval.org/mvn-repo/releases'<br/>
-    }<br/>
-    dependencies {<br/>
-        classpath 'org.kercheval:GradleCMPlugin:+'<br/>
-    }<br/>
+buildscript {
+    repositories {
+        mavenRepo url: 'http://kercheval.org/mvn-repo/releases'
+    }
+    dependencies {
+        classpath 'org.kercheval:GradleCMPlugin:+'
+    }
 }
-</pre>s
+</pre>
 
 This repository should be usable by standard maven interactions.
 
