@@ -23,6 +23,7 @@ A typical gradle usage of this repository for a plugin might be
 <pre>
 buildscript {
     repositories {
+	mavenCentral()
         mavenRepo url: 'http://kercheval.org/mvn-repo/releases'
     }
     dependencies {
