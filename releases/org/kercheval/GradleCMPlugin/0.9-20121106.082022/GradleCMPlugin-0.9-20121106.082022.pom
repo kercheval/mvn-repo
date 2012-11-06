@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.kercheval</groupId>
   <artifactId>GradleCMPlugin</artifactId>
-  <version>0.6-SNAPSHOT</version>
+  <version>0.9-20121106.082022</version>
   <licenses>
     <license>
       <name>Creative Commons Attribution 3.0 Unported License</name>
