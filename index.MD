@@ -9,7 +9,7 @@ github: https://github.com/kercheval/mvn-repo
 ***
 
 This repository has been setup to host kercheval.org projects.  This
-is a github gh_pages branch dedicated to the deployment of projects to
+is a github gh-pages branch dedicated to the deployment of projects to
 allow the simple deployment and recovery of project artifacts.
 
 The base URL for the repository is
